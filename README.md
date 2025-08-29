@@ -45,6 +45,9 @@ If any of these checks fail, the app displays a non-cancellable dialog and force
    - Validates App fingerprint, Timestamp and Secret signature before processing requests and reject 
      if any check fails.
 
+- NOTE: This is a demo server become idle after 15 minutes of inactivity on free tier. So the first 
+request after a while may timeout. Just try again. 
+
 ##  What's Next
    - User login/authentication with JWT tokens
    - Google Play Integrity API for even stronger protection
